@@ -35,7 +35,6 @@
 		A2D4DB251E770B62005F41FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2D4DB2A1E770B62005F41FF /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D4DB2E1E770B62005F41FF /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
-		A2D4DB301E770B62005F41FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				A2D4DB2E1E770B62005F41FF /* FoodTrackerTests.swift */,
-				A2D4DB301E770B62005F41FF /* Info.plist */,
 			);
 			path = FoodTrackerTests;
 			sourceTree = "<group>";
