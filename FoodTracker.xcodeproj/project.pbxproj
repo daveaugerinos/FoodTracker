@@ -18,6 +18,7 @@
 		A2D4DB431E77725C005F41FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2D4DB251E770B62005F41FF /* Info.plist */; };
 		A2D4DB461E77769A005F41FF /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4DB451E77769A005F41FF /* MealTableViewCell.swift */; };
 		A2D4DB481E777C18005F41FF /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4DB471E777C18005F41FF /* MealTableViewController.swift */; };
+		A2E1D2481E7DDCF500D1D8C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1D2471E7DDCF500D1D8C0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A2D4DB401E776B38005F41FF /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		A2D4DB451E77769A005F41FF /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		A2D4DB471E777C18005F41FF /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		A2E1D2471E7DDCF500D1D8C0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				A2D4DB1B1E770B62005F41FF /* MealViewController.swift */,
 				A2D4DB401E776B38005F41FF /* Meal.swift */,
 				A2D4DB471E777C18005F41FF /* MealTableViewController.swift */,
+				A2E1D2471E7DDCF500D1D8C0 /* LoginViewController.swift */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E1D2481E7DDCF500D1D8C0 /* LoginViewController.swift in Sources */,
 				A2D4DB411E776B38005F41FF /* Meal.swift in Sources */,
 				A2D4DB1C1E770B62005F41FF /* MealViewController.swift in Sources */,
 				A2D4DB3A1E775380005F41FF /* RatingControl.swift in Sources */,
@@ -468,6 +472,7 @@
 				A2D4DB351E770B62005F41FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2D4DB361E770B62005F41FF /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +481,7 @@
 				A2D4DB381E770B62005F41FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
