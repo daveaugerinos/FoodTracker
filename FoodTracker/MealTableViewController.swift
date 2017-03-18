@@ -143,7 +143,7 @@ class MealTableViewController: UITableViewController {
             mealDetailViewController.meal = selectedMeal
             
         default:
-            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+            fatalError("Unexpected Segue Identifier: \(segue.identifier)")
         }
     }
 
